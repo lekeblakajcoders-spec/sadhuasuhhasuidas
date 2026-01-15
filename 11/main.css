@@ -1,0 +1,33 @@
+.div1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: width 2s ease-out 1s, background-color 2s;
+}
+.div1:hover{
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+}
+.div2{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(111, 0, 255);
+    transition: width 10s ease-in 3s, background-color 4s;
+}
+.div2:hover{
+    width: 400px;
+    height: 250px;
+    background-color: rgb(4, 0, 255);
+}
+.div3{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(195, 0, 255);
+    transition: width 30s ease-out 20s, background-color 2s;
+}
+.div3:hover{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(255, 47, 57);
+}

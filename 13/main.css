@@ -1,0 +1,26 @@
+a:link{
+    color: black;
+    background-color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: red;
+    background-color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+    background-color: blue;
+    text-decoration: none;
+}
+a:active{
+    color: blue;
+    background-color: yellow;
+    text-decoration: none;
+}
+p::first-line{
+    background: blue;
+}
+p::first-letter{
+    background: yellow;
+}

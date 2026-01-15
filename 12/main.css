@@ -1,0 +1,24 @@
+.makina{
+    position: absolute;
+    background-color: yellowgreen;
+    width: 100px;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    animation: drive 3s infinite;
+}
+@keyframes drive {
+    from{top: 0px;}
+    to{top: 200px;}
+}
+.autobusi{
+    position: absolute;
+    width: 200px;
+    height: 400px;
+    background-color: red;
+    animation: autobusi 4s infinite;
+}
+@keyframes autobusi {
+    from{left: 0px;}
+    to{left: 200px;}
+}
